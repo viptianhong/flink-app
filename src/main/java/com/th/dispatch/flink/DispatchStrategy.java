@@ -21,19 +21,6 @@ import java.util.*;
  * @author tianchenxi
  * @date 2020-02-15
  * @qq 1138650832
- * 派单用例：
- * <p>
- * 0 初始
- * 1 派单中
- * 2 司机接单
- * <p>
- * 0 初始
- * 1 派单中
- * 3 司机无响应，超时
- * <p>
- * 0 初始
- * 4 附近无空闲司机，超时
- * <p>
  * 每个订单最长timeWindowWidth分钟的派单窗口
  * 每timeWindowSlide秒滑动一次，做一次匹配派单
  * <p>
