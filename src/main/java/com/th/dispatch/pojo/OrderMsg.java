@@ -27,4 +27,10 @@ public class OrderMsg implements Serializable {
 	private long createTime;
 	//司机工号
 	private String driverId;
+
+//	//测试用
+//	@Override
+//	public String toString() {
+//		return orderId + "->" + driverId;
+//	}
 }
